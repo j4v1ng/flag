@@ -39,6 +39,14 @@ document.getElementById('language-dropdown').addEventListener('change', function
             slogan.innerText = 'Në unitet është forca, në ndryshim pasuria.';
             title = "Vëllazëria dhe Bashkimi";
             break;
+        case 'ar':
+            slogan.innerText = 'في الوحدة قوة، في التنوع ثروة.';
+            title = "الأخوة والوحدة";
+            break;
+        case 'zh':
+            slogan.innerText = '团结就是力量，多样性就是财富。';
+            title = "兄弟情谊与团结";
+            break;
         case 'en':
             slogan.innerText = 'In unity there is strength, in diversity wealth.';
             title = "Brotherhood and Unity";
